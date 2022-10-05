@@ -8,20 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gerencia do PAQ</title>
 </head>
+<header>
+    <div class="divProduto">
+        <div class="logo"><img src="./static/logotipo.png" width="100px" alt="100px" /></div>
+        <label for="nomeProduto">Produtos:</label>
+        <input type="text" id="nomeProduto" class="nomeProduto">
+        <input class="imgButton" type="button" value="Inserir" onclick="inserirProduto()">
+    </div>
+</header>
+<main>
+    <div class="listaProduto">
+        <ul id="produtos">
 
-<body>
-    <header class="header-1">
-        <div class="logo">
-            <img src="static/logopaq.png" alt="100px%" width="100px%">
-            <p>*Barata BJJ* </p>
-        </div>
-    </header>
-    <main class="meiodatela-1">
-        <p>Inserir item na lista :</p>
-        <input type="text" id="nomeProduto">
-        <input type="button" id="adccarrinho" value="adicionar ao carrinho">
-    </main>
-
+        </ul>
+    </div>
+    <div class="totalCompras">
+        <p>Total das compras:</p>
+        <span>R$</span> <span id="valorCompras">0</span>
+    </div>
+</main>
+<script src="js/index.js"></script>
 </body>
 
 </html>

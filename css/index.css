@@ -1,15 +1,30 @@
-.header-1{
-    background-image: radial-gradient(circle at 100% 0%, #00ffff 0, #00ffff 16.67%, #00e5ff 33.33%, #0cc1ed 50%, #319ec5 66.67%, #3a80a0 83.33%, #3a667f 100%);
-}
-body{
-    background-image: radial-gradient(circle at 100% 0%, #00ffff 0, #00ffff 16.67%, #00e5ff 33.33%, #0cc1ed 50%, #319ec5 66.67%, #3a80a0 83.33%, #3a667f 100%);
+body {
+    background-color: antiquewhite;
+    background-image: url(../static/Site-fundo-01-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.meiodatela-1{
+
+header {
+
     text-align: center;
-    
 }
-.meiodatela-1 p{
+
+.ListaProduto {
+    text-align: center;
+
+}
+
+.meiodatela-1 p {
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
 }
